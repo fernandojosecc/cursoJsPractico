@@ -9,12 +9,12 @@
 <body>
     <h1 pantalla=" PlatziLG">Manipulacion del DOM basico</h1>
 
-    <p>Esto es un parrafo</p>
-    <p class="parrafito">Esto es un parrafo con clase</p>
-    <p id="pid">Esto es un parrafo con ID</p>
+    <input id="calculo1" placeholder="Escribe algo aca" />
+    <input onchange="console.log('cambio el input')" id="calculo2" placeholder="Escribe algo aca" />
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
 
-    <input placeholder="Escribe algo aca">
-
+    <p id="result"></p>
+    
     <script src="./script.js"></script>
 </body>
 </html>
